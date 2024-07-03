@@ -1,0 +1,34 @@
+{
+  "name": "timeintervalcheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "app": "./app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build": "pkg . --target node14-win-x64"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "ini": "^4.1.1",
+    "iniparser": "^1.0.5",
+    "mssql": "^9.2.0",
+    "node-geometry-library": "^1.2.6",
+    "node-schedule": "^2.1.1",
+    "path": "^0.12.7",
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "targets": [
+      "node14-win-x64"
+    ]
+  }
+}
